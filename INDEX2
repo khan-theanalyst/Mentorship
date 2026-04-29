@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Application Submitted</title>
+
+<!-- 🔥 AUTO REDIRECT (3 sec) -->
+<meta http-equiv="refresh" content="15;url=https://topmate.io/mazher_khan/2068903">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #000;
+  --card: #fff;
+  --text: #111;
+  --muted: #4b5563;
+}
+
+/* BASE */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* 🔥 FADE-IN ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* CARD */
+.container {
+  max-width: 520px;
+  width: 100%;
+  padding: 64px 40px;
+  border-radius: 16px;
+  background: var(--card);
+  color: var(--text);
+  text-align: center;
+
+  animation: fadeIn 0.6s ease forwards;
+    border: 1px solid #f1f5f9;  /* 🔥 VERY LIGHT GREY */
+
+}
+
+/* EMOJI */
+.emoji {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+/* TITLE */
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* TEXT */
+p {
+  font-size: 18px;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  color: #000;
+  font-weight: 500;
+}
+
+/* NOTE */
+.note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* BAR */
+.bar {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* CTA */
+.btn {
+  display: block;
+  margin: 24px auto 0;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  width: 100%;
+  max-width: 320px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #111;
+}
+
+/* PROFILE */
+.profile {
+  margin-top: 40px;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.profile-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.profile-sub {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.profile-meta {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .container {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .profile img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-name {
+    font-size: 26px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="emoji">🎉</div>
+
+  <h1>Application Submitted</h1>
+
+  <p>
+    You're one step closer to 
+    <span class="highlight">landing your dream role</span>.
+  </p>
+
+  <p>
+    Redirecting you to booking...
+  </p>
+
+  <div class="note">
+    If not redirected, click below
+  </div>
+
+  <!-- CTA -->
+  <a href="https://topmate.io/mazher_khan/2068903" class="btn">
+    🚀 Continue to Book Your Slot
+  </a>
+
+  <!-- PROFILE -->
+  <div class="profile">
+
+    <img src="https://raw.githubusercontent.com/KHAN-THE-ANALYST/MENTORSHIP/main/profile.png">
+
+    <div class="profile-name">Mazher Khan</div>
+
+    <div class="profile-sub">
+      Data Analytics Mentor · Top 1% Globally
+    </div>
+
+    <div class="profile-meta">
+      (8 Years in Data Science & Analytics)
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
